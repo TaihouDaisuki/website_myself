@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="zh">
+	
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>装甲空母ー大鳳</title>
+		
+		<style type="text/css">			
+			a:link {color: #C6A300;} /* 未访问的链接 */
+			a:visited {color: #00BB00;} /* 已访问的链接 */
+			a:hover{color: #2828FF;} /* 鼠标在链接上 */ 
+			a:active {color: #FF0000;} /* 点击激活链接：在你点击该链接后，页面正在转向新地址的时候，链接显示此颜色 */
+			
+			span.cover
+			{
+				color:black;
+				background-color:black;
+			}
+			span.fold_border
+			{
+				border: 1px groove black;
+				background-color:#d0d0d0;
+			}
+			
+			#main-part
+			{
+				float:right; 
+				width:90%;
+				border: 3px double green;
+			}
+			#Title
+			{
+				float:right; 
+				width:90%;
+				border: 3px solid red;
+			}
+			#baka-hou
+			{
+				float:left; 
+				width:10%;
+				position: fixed;
+				bottom: 0;
+				left: 0;
+			}
+		</style>
+		<script type="text/javascript" src="jquery.min.js"></script>
+	</head>
+	
+	<body>
+		<div class="snow-container" 
+			 style="position:fixed;top:0;left:0;width:100%;height:100%;
+			        pointer-events:none;z-index:100001;"></div>
+		<script type="text/javascript" src="all.js"></script>
+		<script type="text/javascript" src="fold.js"></script>
+	
+		<table border="1"   width="100%" class="center" >
+			<td>
+				<a href="..\homepage\homepage.html">
+					<p style="font-size:20px;"><strong>首页</strong></p>
+				</a>
+			</td>
+ 			<td>
+				<a href="..\ef-a\ef-a.html">
+					<p style="font-size:20px;"><strong>ef - a fairy tale of the two</strong></p>
+				</a>
+			</td>
+  			<td>
+				<a  href="..\eden\eden.html">
+					<p style="font-size:20px;"><strong>eden*</strong></p>
+				</a>
+			</td>
+   			<td>
+				<a href="..\大凤\taihou.html">
+					<p style="text-decoration:line-through;font-size:20px;"><strong>鳳ちゃん大好き</strong></p>
+				</a>
+			</td>
+   		</table>
+		
+		<div id="baka-hou">
+			<img src="40594113_Taihou.png" style="width: 281%; margin-left: -181%;">
+		</div>
+		<div id="Title">
+			<div id="FBI-warning">
+				<p style="text-align:center;color:red;font-size:70px;">
+					<img src="taihou-title.jpg" width="6%">
+					FBI WARNING
+				</p>
+				<p style="text-align:center;color:blue;font-size:30px;">
+					以下内容包括传教、骗氪、玩梗、晒脸等<br>
+					各种四斋蒸鹅心成分<br>
+					请酌情决定是否继续观赏<br>
+					以免对您的身心造成各种不适影响<br>
+					敬请谅解
+				</p>
+			</div>
+			<p style="text-align:center">
+				<audio controls="controls" autoplay="autoplay">
+				<source src="V.A. - 暁の水平線に (Instrumental).mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+				</audio>
+			</p>
+			<p style="text-align:right"><strong>————————————————————</strong>艦これbgm : <cite>暁の水平線に (Instrumental)</cite> by 艦これ</p>
+		</div>
+		<div id="main-part">
+			<p>
+				大凤是角川游戏所开发的
+				<span class="cover">军国主义黄赌毒</span>
+				卡牌类网页游戏《舰队Collection》（艦隊これくしょん -艦これ-）及其衍生作品的登场角色。
+			</p>
+			<h2>&nbsp&nbsp&nbsp&nbsp 历史原型<hr style=" height:2px;border:none;border-top:1px solid #185598;"/> </h2>
+			<div>
+				历史原型为旧日本帝国海军新第一航空战队旗舰，大凤号航空母舰。<br>
+				<span class="fold_border" onClick=javascript:ShowFLT(2) href="javascript:void(null)">
+					<a href="javascript:;">历史上的大凤号航空母舰</a>
+				</span><br>
+					<span id=LM2 style="DISPLAY: none">
+						<img src="历史上的大凤.jpg" width="33%"><br>
+						<span style="font-size:75%">1944年5月，停泊于Tawi-Tawi泊地时的大凤</span><br>
+						<span style="text-decoration:line-through;font-size:75%">装甲甲板prpr 封闭式舰艏prpr</span><br>
+					</span><br>
+				
+				1930年代世界各海军大国的海军军备竞赛掀起高潮，进入了所谓无条约制约的时期。
+				野心勃勃的日本海军以美国海军为对手，从1939年起开始实施为期6年的造舰计划，着手建造新型航空母舰。
+				而大凤号正是在1939年的第四次船舰补充计划（丸四计划）中所决定建造。<br>
+
+				有别于以前放置大量舰载机的要求，身为翔鹤瑞鹤姐妹的后继舰型，
+				日本海军在航空母舰战术中分析出之前的空母往往都是受到美帝的俯冲式轰炸机(即舰爆)的俯冲轰炸，
+				便有可能导致整艘航空母舰瘫痪甚至破坏，故决定采取飞行甲板安装装甲防御的新型建造方式，
+				如在在飞行甲板上安装了20毫米的DS钢板以及75毫米的CNC钢板，95毫米的钢板厚度确保大凤号可以抵抗俯冲轰炸机在700m高空俯冲投下的500kg炸弹的直接攻击；
+				而且舰体也加强装甲防御以防炮击与鱼雷攻击，飞机库也采用应付日本近海的天候和盐害的密闭式格纳库。
+				这种设计导致大凤的干舷较低，为了避免舰首受到海况影响，大凤的舰首采取了与一二五航战都不同的封闭式设计。这种设计颇有现代航空母舰的影子。<br>
+				配备上也计划装载最新型的飞机与防空炮，诸如流星舰攻、烈风舰战、九八式10公分高射炮。
+				此三种装备皆在游戏中40等改造后可取得，尤其第三者更是在大凤号出现当时游戏中最强的防空炮。
+				但是实战中大凤并没有装上这些高档飞机，而仅有彗星舰爆、天山舰攻与零式战斗机等。(前两者在游戏中初入手即有装载，而改造后送的新锐机种也许算是对大凤的补偿）
+				大凤于公元1941年7月10日在飞鹰号改造完成后于川崎造船厂开始动工，不到两年后即完工并下水服役，并与翔瑞鹤姐妹编入第一航空战队，
+				之后于1944年6月参加了马里亚纳海战，但还没有表现之前就被美军潜艇“大青花鱼”(USS Albacore)盯上射出6发鱼雷。<br>
+				<span class="fold_border" onClick=javascript:ShowFLT(3) href="javascript:void(null)">
+					<a href="javascript:;">大凤&大青花鱼</span></a>
+				</span><br>
+					<span id=LM3 style="DISPLAY: none">
+						<img src="400px-大青花鱼&大凤.jpg" width="20%"><br>
+						<span style="font-size:75%">注:罐头中的为另一国产手游战舰少女R中大青花鱼人设</span><br>
+					</span>
+				第一发鱼雷被小松关雄兵曹长所驾驶的彗星轰炸机给挡住，但另一发击中舰体，造成舰载机用燃料槽损伤，在密闭格纳库积满了挥发漏出的燃料，
+				之后(原因有争议)引起大爆炸与大火，因而沉没。<br>
+				<span class="fold_border" onClick=javascript:ShowFLT(7) href="javascript:void(null)">
+					<a href="javascript:;">燃料泄漏</span></a>
+				<br>
+					<span id=LM7 style="DISPLAY: none">
+						<img src="300px-40524695.jpg" width="20%"><br>
+						<span class="cover" style="font-size:75%">其实是妹汁侧漏了xD</span><br>
+					</span>
+				<br>
+				<span class="fold_border" onClick=javascript:ShowFLT(1) href="javascript:void(null)">
+					<a href="javascript:;">大凤长眠之地<span style="color:red">[北纬12度05分，东经138度12分]</span></a>
+				</span><br>
+					<span id=LM1 style="DISPLAY: none">
+						<img src="大凤长眠之地.png" width="40%">
+					</span>
+			</div>
+			
+			<h2>&nbsp&nbsp&nbsp&nbsp 大凤相关<hr style=" height:2px;border:none;border-top:1px solid #185598;"/> </h2>
+			<div>
+				<h3><strong>立绘相关</strong></h3>
+				<span class="fold_border" onClick=javascript:ShowFLT(4) href="javascript:void(null)">
+					<a href="javascript:;">图鉴&立绘</span></a>
+				<br>
+					<span id=LM4 style="DISPLAY: none">
+						<img src="Uuuui.png" width="10%">	<img src="大凤_中破图鉴.jpg" width="10%">
+						<img src="200px-153-5.png" width="10%">	<img src="200px-153-6.png" width="10%">
+						<br>
+						<img src="Uii.JPG" width="10%">	<img src="大凤改_中破图鉴.jpg" width="10%">
+						<img src="200px-156-5.png" width="10%">	<img src="200px-156-6-1.png" width="10%">
+						<br>
+						
+						<span class="fold_border" onClick=javascript:ShowFLT(6) href="javascript:void(null)">
+							<a href="javascript:;"><span class="cover">大凤改二(大雾)</span></span></a>
+						</span><br>
+							<span id=LM6 style="DISPLAY: none">
+								<img src="400px-45755776_大鳳.jpg" width="30%">
+							</span>
+				<br>
+				<p>
+					<span style="text-decoration:line-through">RJ：“终于有比我还平的了！”</span><br>
+					特征上除了贫乳外，特别吸引人的就是在破图的时候，背向玩家露出的丝质内裤后隐藏的小屁屁。从角度来看，特别会引起某些绅士提督无限遐想。<br>
+					大凤由第一次参与《舰队Collection》立绘的岛田フミカネ老师担任角色设计，能登麻美子小姐担任配音员。
+					<span style="text-decoration:line-through">岛田岳父敲完求限定立绘，能登姐姐僕の嫁</span><br>
+					改前改后的语音变化很大，改后就更加声轻体柔
+					<span class="cover">易推倒</span>了。<br>
+					大凤爆沉的主要原因一般认为是密闭式格纳库（机库）令泄漏的燃气无法排出。<br>
+					从常识来想，格纳库应该指的箭筒，但是对于喜好夜战（意味深）的提督来说，没什么人会这样认为。<br>
+					而绅士们对于大凤人设的考究结果（大凤的衣服腋下肋间是敞开的），令他们认定“格纳库”指的正是空母舰娘们的胸部(′·ω·`)
+					<span class="cover">宪兵队</span>
+					<br>
+					<p>
+						同时，立绘很好的还原了大凤封闭式舰艏的特点
+						<span style="text-decoration:line-through">岛田岳父强，吹，无敌</span>
+						<br>
+						<span class="fold_border" onClick=javascript:ShowFLT(5) href="javascript:void(null)">
+							<a href="javascript:;">图鉴&立绘</span></a>
+						<br>
+							<span id=LM5 style="DISPLAY: none">
+								<img src="封閉式1.JPG" width="10%">
+							</span>
+					</p>
+				</p>
+				
+				<h3><strong>入手困难</strong></h3>
+				<p>
+					作为一款<span class="cover">军国主义黄赌毒</span>卡牌类游戏，赌船是不可避的=w=<br>
+					由于目前取得方法仅能通过大型舰建造，因此大凤在空母系中获取难度甚至高于翔鹤、瑞鹤姊妹据少数欧洲提督报告
+					<span class="cover">双鹤基本上已经成为赌大凤的副产物</span><br>
+					加上大型舰建造系统每建造一次就需要投入大量的资源，更是加强了玩家的取得难度与痛苦度。<br>
+					而且大凤的大建配方需要投入更多的铝，所以
+					<span class="cover">不论是赤城的胃还是</span>提督的肝<span class="cover">，都在</span>深受大建大凤之苦难。<br><br>
+					另外<br>
+					根据大建出货率最高公式，运用概率论（口胡+玄学）方法，计算出大约只需消耗八万铝，即可造<span style="text-decoration:line-through">请</span>出大凤。<br>
+					<br>
+					心动不如行动，赶快大建吧！<br>
+					<br>
+					与某AWW BWG不同，这位是真八万铝。<span style="text-decoration:line-through">毕竟经过精密计算...</span>
+				</p>
+			</div>
+			
+			<h2>&nbsp&nbsp&nbsp&nbsp 大鳳僕の嫁<hr style=" height:2px;border:none;border-top:1px solid #185598;"/> </h2>
+			<div>
+				<marquee behavior="scroll" direction=left width="80%" height="300" 
+					     scrollamount="10" scrolldelay="1"  loop=infinite>
+					
+					<a>
+						<img src="-6d46201a3917780f.jpg" height="300" border="0">
+					</a>
+					<a>
+						<img src="mashiro.png" height="300" width="20%" border="0">
+					</a>
+				
+					<a>
+						<img src="鳳醬.jpg" height="300" border="0">
+					</a>
+					<a>
+						<img src="mashiro.png" height="300" width="20%" border="0">
+					</a>
+				
+					<a>
+						<img src="5537265.jpg" height="300" border="0">
+					</a>
+					<a>
+						<img src="mashiro.png" height="300" width="20%" border="0">
+					</a>
+				
+					<a>
+						<img src="大凤.jpg" height="300" border="0">
+					</a>
+					<a>
+						<img src="mashiro.png" height="300" width="20%" border="0">
+					</a>
+					
+					<a>
+						<img src="-2bb49aa7769abe6c.jpg" height="300" border="0">
+					</a>
+					<a>
+						<img src="mashiro.png" height="300" width="20%" border="0">
+					</a>
+					
+					<a>
+						<img src="4bb65fc4a9e0f225.jpg" height="300" border="0">
+					</a>
+					<a>
+						<img src="mashiro.png" height="300" width="20%" border="0">
+					</a>
+					
+					<a>
+						<img src="11A1C82C75A80FEE7CF35D215A25CFE1.jpg" height="300" border="0">
+					</a>
+					<a>
+						<img src="mashiro.png" height="300" width="20%" border="0">
+					</a>
+					
+					<a>
+						<img src="28b07a539d86b3d3.jpg" height="300" border="0">
+					</a>
+					<a>
+						<img src="mashiro.png" height="300" width="20%" border="0">
+					</a>
+					
+					<a>
+						<img src="-10881c7f84d294cc.jpg" height="300" border="0">
+					</a>
+					<a>
+						<img src="mashiro.png" height="300" width="20%" border="0">
+					</a>
+					
+					<a>
+						<img src="41542467_p0.png" height="300" border="0">
+					</a>
+					<a>
+						<img src="mashiro.png" height="300" width="20%" border="0">
+					</a>
+					
+					<a>
+						<img src="40572724_p0.jpg" height="300" border="0">
+					</a>
+					<a>
+						<img src="mashiro.png" height="300" width="20%" border="0">
+					</a>
+					
+					<a>
+						<img src="51348313_p0.png" height="300" border="0">
+					</a>
+					<a>
+						<img src="mashiro.png" height="300" width="20%" border="0">
+					</a>
+					
+					<a>
+						<img src="55273435_p0.png" height="300" border="0">
+					</a>
+					<a>
+						<img src="mashiro.png" height="300" width="20%" border="0">
+					</a>
+					
+					<a>
+						<img src="5089835.jpg" height="300" border="0">
+					</a>
+				</marquee>
+				<h3><strong>接下来开始晒了，请带好墨镜或者选择不看=w=</strong></h3>
+				<span class="fold_border" onClick=javascript:ShowFLT(8) href="javascript:void(null)">
+					<a href="javascript:;"><span class="cover">大鳳と僕の物語</span></span></a>
+					<br>
+					<span id=LM8 style="DISPLAY: none">
+					
+						<span onClick=javascript:ShowFLT(9) href="javascript:void(null)">
+							<a href="javascript:;"><span style="font-size:200%;color:#0066CC">大鳳と僕の出会い————————2015.8.22</span></span></a>
+						<br>
+							<span id=LM9 style="DISPLAY: none">
+								<marquee behavior="scroll" direction=left width="40%" height="300" 
+								         scrollamount="8" scrolldelay="1"  loop=infinite 
+								         onmouseover="this.stop()" onmouseout="this.start()">
+					
+									<a>
+										<img src="QQ图片20150822211824.jpg" height="300" border="0">
+									</a>
+									<a>
+										<img src="mashiro.png" height="300" width="30%" border="0">
+									</a>
+				
+									<a>
+										<img src="QQ图片20150822211830.jpg" height="300" border="0">
+									</a>
+									<a>
+										<img src="mashiro.png" height="300" width="30%" border="0">
+									</a>
+				
+									<a>
+										<img src="QQ图片20150822211834.jpg" height="300" border="0">
+									</a>
+								
+								</marquee>
+							</span>
+						<br>
+						
+						<span onClick=javascript:ShowFLT(10) href="javascript:void(null)">
+							<a href="javascript:;"><span style="font-size:200%;color:#EA0000">忘れないの時————————2015.9.4</span></span></a>
+						<br>
+							<span id=LM10 style="DISPLAY: none">
+								<marquee behavior="scroll" direction=left width="40%" height="300" 
+								         scrollamount="8" scrolldelay="1"  loop=infinite 
+								         onmouseover="this.stop()" onmouseout="this.start()">
+					
+									<a>
+										<img src="LV99 大凤.png" height="300" border="0">
+									</a>
+									<a>
+										<img src="mashiro.png" height="300" width="30%" border="0">
+									</a>
+				
+									<a>
+										<img src="大凤LOVE~.jpg" height="300" border="0">
+									</a>
+									<a>
+										<img src="mashiro.png" height="300" width="30%" border="0">
+									</a>
+				
+									<a>
+										<img src="LV100 大凤.png" height="300" border="0">
+									</a>
+								</marquee>
+							</span>
+						<br>
+						
+						<span onClick=javascript:ShowFLT(11) href="javascript:void(null)">
+							<a href="javascript:;"><span style="font-size:200%;color:#FFD306">あの約束————————2016.8.18</span></span></a>
+						<br>
+							<span id=LM11 style="DISPLAY: none">
+								<marquee behavior="scroll" direction=left width="40%" height="300" 
+								         scrollamount="8" scrolldelay="1"  loop=infinite 
+								         onmouseover="this.stop()" onmouseout="this.start()">
+					
+									<a>
+										<img src="凤の联合舰队.jpg" height="300" border="0">
+									</a>
+									<a>
+										<img src="mashiro.png" height="300" width="30%" border="0">
+									</a>
+				
+									<a>
+										<img src="甲章.jpg" height="300" border="0">
+									</a>
+									<a>
+										<img src="mashiro.png" height="300" width="30%" border="0">
+									</a>
+				
+									<a>
+										<img src="海域clear.jpg" height="300" border="0">
+									</a>
+									<a>
+										<img src="mashiro.png" height="300" width="30%" border="0">
+									</a>
+									
+									<a>
+										<img src="作战成功.jpg" height="300"  border="0">
+									</a>
+								</marquee>
+							</span>
+						<br>
+						
+						<span onClick=javascript:ShowFLT(12) href="javascript:void(null)">
+							<a href="javascript:;"><span style="font-size:200%;color:#00DB00">これからも一绪に頑張ってね————————2016.11.5</span></span></a>
+						<br>
+							<span id=LM12 style="DISPLAY: none">
+								<marquee behavior="scroll" direction=left width="40%" height="300" 
+								         scrollamount="8" scrolldelay="1"  loop=infinite 
+								         onmouseover="this.stop()" onmouseout="this.start()">
+					
+									<a>
+										<img src="QQ截图20161105152402.png" height="300" border="0">
+									</a>
+									<a>
+										<img src="mashiro.png" height="300" width="30%" border="0">
+									</a>
+				
+									<a>
+										<img src="2016-11-5T15.29.57.png" height="300" border="0">
+									</a>
+								</marquee>
+							</span>
+						<br>
+					</span>
+			</div>
+			
+			<marquee behavior="AlterNATE" style="font-size:26px" direction="right" bgcolor="#996600"> Presetn By 永遠の波</marquee>
+		</div>
+	</body>
+</html>
